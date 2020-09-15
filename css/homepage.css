@@ -1,7 +1,7 @@
 html, body{
   height: 100%;
   margin: 0;
-	padding: 0;
+  padding: 0;
 }
 
 hr{
@@ -14,12 +14,16 @@ hr{
 
 div{min-height: 100%;}
 
+#portrait{
+    image-resolution: 300px;
+}
+
 header{
   position: fixed;
   width: 100%;
   top: 0;
-	left: 0;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  left: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 footer{
@@ -32,13 +36,12 @@ footer{
 }
 
 #anchor{
-  margin-top: -100px;
-  margin-bottom: 5%;
+  margin-top: -8.5%;
 }
 
 #home{
   text-align: center;
-  padding-top: 250px;
+  padding-top: 10%;
   background-image: url("../img/homepage.jpg");
   background-size: cover;
   background-position: center center;
@@ -59,12 +62,12 @@ footer{
   color: #5d7177;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  padding-bottom: 400px;
+  padding-bottom: 20%;
 }
 
 #allgemein{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 5%;
 }
 
 #allgemein h3{
@@ -75,14 +78,14 @@ footer{
 
 #allgemein h4{
   font-size: 30px;
-  padding-top: 5%;
+  padding-top: 2%;
 	font-family: "Roboto Slab", sans-serif;
 	color:#494949;
 }
 
 #allgemein p{
   font-size: 20px;
-  padding: 2% 30% 0 30%;
+  padding: 2% 15% 0 15%;
 	font-family: "Roboto Slab", serif;
 	color:#494949;
 }
