@@ -1,0 +1,88 @@
+html, body{
+  height: 100%;
+  margin: 0;
+	padding: 0;
+}
+
+hr{
+	width: 30px;
+	height: 3px;
+	background: #494949;
+	border: 0;
+	margin: 0 auto 40px auto;
+}
+
+div{min-height: 100%;}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+	left: 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+	background-color: #3f3f3f
+}
+
+#anchor{
+  margin-top: -100px;
+  margin-bottom: 5%;
+}
+
+#home{
+  text-align: center;
+  padding-top: 250px;
+  background-image: url("../img/homepage.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#home h1{
+  font-weight: 600;
+  color:#494949;
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+#home h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #5d7177;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 400px;
+}
+
+#allgemein{
+  text-align: center;
+  padding-top: 50px;
+}
+
+#allgemein h3{
+  font-size: 50px;
+  color:#494949;
+  font-family: "Roboto", sans-serif;
+}
+
+#allgemein h4{
+  font-size: 30px;
+  padding-top: 5%;
+	font-family: "Roboto Slab", sans-serif;
+	color:#494949;
+}
+
+#allgemein p{
+  font-size: 20px;
+  padding: 2% 30% 0 30%;
+	font-family: "Roboto Slab", serif;
+	color:#494949;
+}
