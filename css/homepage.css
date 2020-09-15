@@ -14,10 +14,6 @@ hr{
 
 div{min-height: 100%;}
 
-#portrait{
-    image-resolution: 300px;
-}
-
 header{
   position: fixed;
   width: 100%;
@@ -36,7 +32,8 @@ footer{
 }
 
 #anchor{
-  margin-top: -8.5%;
+  margin-top: -8%;
+  margin-bottom: 5%;
 }
 
 #home{
@@ -85,7 +82,7 @@ footer{
 
 #allgemein p{
   font-size: 20px;
-  padding: 2% 15% 0 15%;
+  padding: 2% 20% 0 20%;
 	font-family: "Roboto Slab", serif;
 	color:#494949;
 }
