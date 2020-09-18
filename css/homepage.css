@@ -7,12 +7,14 @@ html, body{
 hr{
 	width: 30px;
 	height: 3px;
-	background: #494949;
+	background: #A3A0F2;
 	border: 0;
 	margin: 0 auto 40px auto;
 }
 
-div{min-height: 100%;}
+section{height: 100vh;}
+
+a{color: #CFCEF2;}
 
 header{
   position: fixed;
@@ -23,17 +25,22 @@ header{
 }
 
 footer{
+  font-size: 15px;
 	width: 100%;
 	height: 50px;
   padding-top: 10px;
   text-align: center;
-  color: white;
-	background-color: #3f3f3f
+  color: #222059;
+	background-color: white;
 }
 
 #anchor{
   margin-top: -8%;
   margin-bottom: 5%;
+}
+
+#home img:hover{
+  opacity: 0.8;
 }
 
 #home{
@@ -47,7 +54,7 @@ footer{
 
 #home h1{
   font-weight: 600;
-  color:#494949;
+  color:#33384D;
   font-size: 100px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -63,13 +70,14 @@ footer{
 }
 
 #allgemein{
+  background-image:linear-gradient( #222059 53%, #35328C 96%);
   text-align: center;
   padding-top: 5%;
 }
 
 #allgemein h3{
   font-size: 50px;
-  color:#494949;
+  color:#CFCEF2;
   font-family: "Roboto", sans-serif;
 }
 
@@ -77,12 +85,23 @@ footer{
   font-size: 30px;
   padding-top: 2%;
 	font-family: "Roboto Slab", sans-serif;
-	color:#494949;
+	color:#CFCEF2;
 }
 
 #allgemein p{
   font-size: 20px;
-  padding: 2% 14% 0 14%;
+  padding: 50px 14% 0 14%;
 	font-family: "Roboto Slab", serif;
-	color:#494949;
+	color:#CFCEF2;
+}
+
+#allgemein img:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+#allgemein img{
+  max-height: 35%;
+  border-radius: 50%;
 }

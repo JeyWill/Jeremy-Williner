@@ -1,0 +1,44 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+a{color: #CFCEF2;}
+
+footer{
+  font-size: 15px;
+	width: 100%;
+	height: 50px;
+  padding-top: 10px;
+  text-align: center;
+  color: #222059;
+	background-color: white;
+}
+
+#qualifikation{
+  background-image:linear-gradient( #222059 53%, #35328C 96%);
+  text-align: center;
+  height: 100vh;
+}
+
+#qualifikation h3{
+  font-size: 50px;
+  color:#CFCEF2;
+  font-family: "Roboto", sans-serif;
+}
+
+#qualifikation p{
+  font-size: 20px;
+  padding: 50px 14% 0 14%;
+	font-family: "Roboto Slab", serif;
+	color:#CFCEF2;
+}

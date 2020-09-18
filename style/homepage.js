@@ -1,2 +1,1 @@
-var img = document.getElementById('portrait');
-img.onmouseover.css("size", "300px");
+var scroll = new SmoothScroll('#home a[href*="#"]', { speed: 1800 });
