@@ -2,6 +2,7 @@ html, body{
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 hr{
@@ -65,6 +66,12 @@ footer{
   background-attachment: fixed;
 }
 
+#home #logo:hover{
+  transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
 #home h1{
   font-weight: 600;
   color:#33384D;
@@ -108,4 +115,16 @@ footer{
 #allgemein img{
   max-height: 35%;
   border-radius: 50%;
+}
+
+footer img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+footer img{
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
