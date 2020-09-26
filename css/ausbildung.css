@@ -53,11 +53,16 @@ footer{
 	color:#CFCEF2;
 }
 
-#text{
-  padding: 90px;
+.strich{
+  color: white;
+  width: 80px;
+  height: 2px;
+  background: #A3A0F2;
+  border: 0;
+  margin: 0 auto 40px auto;
 }
 
-hr{
+#titelStrich{
   color: white;
 	width: 30px;
 	height: 3px;
