@@ -50,7 +50,14 @@ footer{
 }
 
 #text{
-  padding: 0 25% 0 25%;
+    text-align: justify;
+    margin: auto;
+    min-width: 25%;
+    max-width: 500px;
+}
+
+#eintraege{
+  text-align: center;
 }
 
 hr{
