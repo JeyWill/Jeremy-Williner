@@ -37,7 +37,7 @@ footer{
 
 #anchor{
   margin-top: -8%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 #logo-header{
@@ -59,7 +59,7 @@ footer{
 
 #home{
   text-align: center;
-  padding-top: 10%;
+  padding-top: 8%;
   background-image: url("../img/homepage.webp");
   background-size: cover;
   background-position: center center;
@@ -105,12 +105,12 @@ footer{
   text-align: justify;
   margin: auto;
   min-width: 25%;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 #allgemein p{
   font-size: 20px;
-  padding-top: 50px;
+  padding-top: 2%;
 	font-family: "Roboto Slab", serif;
 	color:#CFCEF2;
 }
