@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  setTimeout(function() {
-    $("#btn").trigger('click');
-  }, 5000);
+setTimeout(function() {
+  $(document.getElementById(btn)).click();
+}, 5000);
+});
+$(document).ready(function() {
+  alert("Hello! I am an alert box!!");
 });
